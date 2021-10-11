@@ -11,13 +11,18 @@
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.2.1",
-        "alpinejs": "^2.7.3",
+        "@types/react": "^17.0.27",
+        "@types/react-dom": "^17.0.9",
         "autoprefixer": "^10.1.0",
-        "axios": "^0.21",
         "laravel-mix": "^6.0.6",
-        "lodash": "^4.17.19",
         "postcss": "^8.2.1",
         "postcss-import": "^12.0.1",
-        "tailwindcss": "^2.0.2"
+        "tailwindcss": "^2.0.2",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.4.3"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
     }
 }
